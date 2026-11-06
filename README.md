@@ -6,7 +6,13 @@
 Using Q1 and Q2 2026 FDIC bank-level data, BankScope combines financial analysis, statistical testing, and interactive visualizations to turn complex banking data into meaningful insights.
 
 ---
+## 🌐 Live Demo
 
+🚀 **Live Website:** [BankScope](https://bankscopee.netlify.app)
+
+📡 **Backend API:** [FastAPI Documentation](https://bankscope-mnaj.onrender.com/docs)
+
+---
 ## Overview
 
 Financial statements contain more than just numbers. They reveal patterns in institutional growth, capital structure, profitability, and financial stability.
