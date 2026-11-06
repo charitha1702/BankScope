@@ -12,9 +12,13 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# Allow requests from the local frontend and deployed Netlify frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://bankscopee.netlify.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
